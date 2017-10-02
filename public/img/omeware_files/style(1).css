@@ -1,0 +1,42 @@
+.left-right {
+    width:315px;
+    height:90px;
+    overflow:hidden;
+}
+.lr-container {
+    height:90px;
+    width:630px;
+}
+.slide {
+    width:315px;
+    height:90px;
+    float:left;
+}
+.default {
+    background-color:#ccc;
+    left:-315px;
+    position:relative;
+}
+.onhover {
+    background-color:#000;
+    color:#FFF;
+}
+.onhover h1 {
+    font-family:'Trebuchet MS', Arial, Helvetica, Sans-Serif;
+    font-size: 18px;
+    letter-spacing: -1px;
+    text-shadow: 0 0 0 #000000;
+    text-transform: uppercase;
+    text-decoration:none;
+    padding: 0px 10px;
+	margin-top:15px;
+}
+.onhover h2 {
+    font-family:'Trebuchet MS', Arial, Helvetica, Sans-Serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0 #000000;
+    text-transform: uppercase;
+    text-decoration:none;
+    padding: 0px 10px;
+}

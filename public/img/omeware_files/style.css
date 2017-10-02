@@ -1,0 +1,224 @@
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+.content-area{
+	height:364px;
+	width:320px !important;
+}
+/*scrollpane custom CSS*/
+.jspVerticalBar {
+	width: 8px;
+	background: transparent;
+	right:3px;
+}
+
+.jspHorizontalBar {
+	bottom: 5px;
+	width: 100%;
+	height: 8px;
+	background: transparent;
+}
+.jspTrack {
+	background: transparent;
+}
+
+.jspDrag {
+	background: url("transparent-black.png") repeat;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+	float: left;
+	height: 100%;
+}
+
+.jspCorner {
+	display:none
+}
+.imgWwMusxthu img {
+	width:100px;
+	height:100px;
+	display: block;
+}
+.imgWwMusxthu {
+	float:left;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,1.0);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,1.0);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,1.0);
+	-webkit-transition:all 0.15s linear;
+	-moz-transition:all 0.15s linear;
+	-o-transition:all 0.15s linear;
+	transition:all 0.15s linear;
+	border: 1px solid #FFF;
+	margin:9px 10px 9px 9px !important;
+}
+.homeUser2Download li:hover .imgWwMusxthu {
+	box-shadow: 0 0 10px rgba(0,0,0,1.0);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,1.0);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,1.0);
+	-webkit-transition:all 0.15s linear;
+	-moz-transition:all 0.15s linear;
+	-o-transition:all 0.15s linear;
+	transition:all 0.15s linear;
+	border: 1px solid #FFF;
+}
+.imgWwMusxthu .iiconCCplayMuxxs {
+	margin-left:0px;
+	margin-top:-88px;
+	display:table-cell;
+	width:100px;
+	font-size:14px;
+	font-weight:bold;
+	height:100px;
+	line-height:100% !important;
+	vertical-align:middle;
+	position:absolute;
+	text-align:center;
+	color:#FFF !important;
+	text-transform:uppercase;
+	padding-top:20px;
+	outline:none;
+    transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+	display:none;
+}
+.imgWwMusxthu i {
+	font-size:20px;
+    border-radius: 100px;
+    border: 2px solid #FFF;
+	text-align:center !important;
+	width: 22px !important;
+    height: 22px;
+	padding-top:2px;
+	padding-left:2px;
+	background: rgba(0,0,0,0.5) !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.imgWwMusxthu:hover .iiconCCplayMuxxs {
+    transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+	color:#FFF;
+	display:block;
+}

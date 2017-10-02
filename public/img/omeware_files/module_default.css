@@ -1,0 +1,72 @@
+/**
+* Version  		4.3.3
+* Package  		eMailing
+* Author 		Morteza Moosavi
+* Copyright  	2002-2013 David Nejad Trading Co. Limited All Rights Reserved.
+* License  		Design and Developed By www.davidnejad.com (DevTeam)
+* Email   		mm@davidnejad.com
+*/
+
+
+div.emailing_module, .emailing_module div{
+	padding: 0 !important;
+	margin: 0 !important;
+	border-style:none !important;
+}
+
+table.emailing_form{
+	margin:auto;
+	border:0px !important;
+}
+
+a.emailing_togglemodule{
+	display : block;
+	font-size:16px;
+}
+
+.emailing_mootoolsbutton p{
+	text-align:center;
+}
+
+.acysubbuttons{
+	text-align:center;
+}
+
+img.captchaimagemodule{
+	border:1px solid #dddddd;
+	float: left;
+}
+
+.captchakeymodule .captchafield{
+	margin-top:3px;
+	margin-left:2px;
+}
+
+.emailing_fulldiv tr, .emailing_fulldiv td{
+	border:0px;
+}
+
+.emailing_module_form td {
+	padding-bottom: 5px;
+	vertical-align:top;
+}
+
+div.emailing_module_error {
+	color: #400;
+	background-color: #fdd;
+	padding: 1em !important;
+	margin-bottom:10px;
+}
+
+div.emailing_module_success {
+	color: #130;
+	background-color: #dfc;
+	padding: 1em !important;
+	z-index: 10;
+	margin-bottom:10px;
+}
+
+.emailing_module_form .emailing_introtext{
+	 padding-bottom:10px;
+	 display:block;
+}

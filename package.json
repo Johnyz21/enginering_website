@@ -1,0 +1,30 @@
+{
+  "name": "jonathan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Welding",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "express-validator": "^4.1.1",
+    "formidable": "^1.1.1",
+    "fs": "0.0.1-security",
+    "glyphicons": "^0.2.0",
+    "mongoose": "^4.10.4",
+    "nodemon": "^1.12.1",
+    "photoswipe": "^4.1.2",
+    "promise": "^7.1.1"
+  }
+}
