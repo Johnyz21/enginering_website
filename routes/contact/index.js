@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var nodemailer = require('nodemailer');
 
 var bodyParser = require('body-parser');
 
@@ -43,6 +44,32 @@ router.post('/form', jsonParser, function(req, res) {
     } else {
       console.log("success!!");
       req.session.success = true;
+
+      // send email
+      var transporter = nodemailer.createTransport({
+        service: 'hotmail',
+        auth: {
+          user: 'jjm21@hotmail.co.uk',
+          pass: 'Grandad8wow'
+        }
+      });
+
+      var mailOptions = {
+        from: 'jjm21@hotmail.co.uk',
+        to: req.params('email'),
+        subject: 'Testing website',
+        text: req.params('comment')
+      };
+
+      transporter.sendMail(mailOptions, function(error, info) {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log('Email sent: ' + info.response);
+        }
+      });
+
+
     }
 
   }).then(function() {

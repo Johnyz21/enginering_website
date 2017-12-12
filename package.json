@@ -23,6 +23,7 @@
     "fs": "0.0.1-security",
     "glyphicons": "^0.2.0",
     "mongoose": "^4.10.4",
+    "node-mailer": "^0.1.1",
     "nodemon": "^1.12.1",
     "photoswipe": "^4.1.2",
     "promise": "^7.1.1"

@@ -232,7 +232,7 @@ textarea{
 
 #home-page{
    /*background-image: : transparent url('img/test3.jpg') no-repeat center;*/
-   background-image:  url('../img/cover_photo.jpeg');
+   background-image:  url('../img/cover_photo.png');
    background-size: 100%;
 
    background-repeat: no-repeat;
